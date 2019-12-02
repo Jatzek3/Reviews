@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="791ad917-475c-4050-852e-2505b220409c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +87,7 @@
       <workItem from="1575272349853" duration="3749000" />
       <workItem from="1575279322810" duration="3253000" />
       <workItem from="1575296097218" duration="966000" />
-      <workItem from="1575300254835" duration="1059000" />
+      <workItem from="1575300254835" duration="2394000" />
     </task>
     <servers />
   </component>
