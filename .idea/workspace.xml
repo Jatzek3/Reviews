@@ -3,13 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="791ad917-475c-4050-852e-2505b220409c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/books/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learnpython/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/learnpython/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorials/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials/models.py" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -24,29 +30,24 @@
   </component>
   <component name="ProjectId" id="1UKhfH3ceU51pPWJKIJjfqNJt23" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/tutorials" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Projects\learnpython\tutorials" />
       <recent name="D:\Projects\learnpython\exercises" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration name="learnpython" type="Python.DjangoServer" factoryName="Django server">
@@ -73,6 +74,18 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -88,7 +101,11 @@
       <workItem from="1575272349853" duration="3749000" />
       <workItem from="1575279322810" duration="3253000" />
       <workItem from="1575296097218" duration="966000" />
-      <workItem from="1575300254835" duration="3449000" />
+      <workItem from="1575300254835" duration="4645000" />
+      <workItem from="1575625819840" duration="43000" />
+      <workItem from="1575625866281" duration="4000" />
+      <workItem from="1575833721602" duration="710000" />
+      <workItem from="1575883577326" duration="2820000" />
     </task>
     <servers />
   </component>
@@ -107,5 +124,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="77" y="255" key="SettingsEditor" timestamp="1575885208281">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="77" y="255" key="SettingsEditor/0.0.1920.1160@0.0.1920.1160" timestamp="1575885208281" />
   </component>
 </project>
