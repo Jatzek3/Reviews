@@ -9,11 +9,6 @@ class HomeListView(ListView):
     queryset = TutorialsReview.objects.all()
     template_name = 'tutorials.html'
     model = TutorialsReview
-    # model = ExercisesReview
-    #
-    # def exercises_index(request):   #Hoepage
-    #     html = 'exercises.html'
-    #     return render(request, html)
 
 
 class TutorialsDetailView(DetailView):
@@ -21,8 +16,7 @@ class TutorialsDetailView(DetailView):
     template_name = 'books_detail.html'
     model = TutorialsReview
 
-
     def get_object(self, queryset=None):
 
         id_ = self.kwargs.get("id")
-        return get_object_or_404(TutorialsReview,id=id_)
+        return get_object_or_404(TutorialsReview, id=id_)

@@ -7,9 +7,11 @@
       <change beforePath="$PROJECT_DIR$/books/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/books/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercises/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercises/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/books.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/books.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/exercises.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/exercises.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/tutorials.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/tutorials.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learnpython/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/learnpython/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/books_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/books_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/exercises_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/exercises_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/tutorials_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/tutorials_detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tutorials/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tutorials/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials/views.py" afterDir="false" />
     </list>
@@ -112,7 +114,9 @@
       <workItem from="1575883577326" duration="2820000" />
       <workItem from="1576151225714" duration="15000" />
       <workItem from="1576224569094" duration="6924000" />
-      <workItem from="1576235747641" duration="4753000" />
+      <workItem from="1576235747641" duration="5948000" />
+      <workItem from="1576246250700" duration="371000" />
+      <workItem from="1576252748637" duration="3000" />
     </task>
     <servers />
   </component>

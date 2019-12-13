@@ -6,23 +6,19 @@ from django.views.generic.detail import DetailView
 
 from .models import BooksReview
 
+
 class HomeListView(ListView):
     queryset = BooksReview.objects.all()
     template_name = 'books.html'
     model = BooksReview
-    # model = ExercisesReview
-    #
-    # def exercises_index(request):   #Hoepage
-    #     html = 'exercises.html'
-    #     return render(request, html)
+
 
 class BooksReviewDetailView(DetailView):
     queryset = BooksReview.objects.all()
     template_name = 'books_detail.html'
     model = BooksReview
 
-
     def get_object(self, queryset=None):
 
         id_ = self.kwargs.get("id")
-        return get_object_or_404(BooksReview,id=id_)
+        return get_object_or_404(BooksReview, id=id_)
