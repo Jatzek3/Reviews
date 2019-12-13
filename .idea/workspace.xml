@@ -3,11 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="791ad917-475c-4050-852e-2505b220409c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/books/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/books/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/books/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/books/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnpython/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/learnpython/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorials/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/books.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/books.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/exercises.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/exercises.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/tutorials.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/tutorials.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorials/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorials/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,6 +111,8 @@
       <workItem from="1575625866281" duration="4000" />
       <workItem from="1575833721602" duration="710000" />
       <workItem from="1575883577326" duration="2820000" />
+      <workItem from="1576151225714" duration="15000" />
+      <workItem from="1576224569094" duration="6202000" />
     </task>
     <servers />
   </component>

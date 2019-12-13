@@ -1,4 +1,14 @@
 {% extends "base.html" %}
 {% block content %}
-    <h1>This is exercises page</h1>
+    <h1>Exercises</h1>
+    <ul>
+    {%  for review in object_list %}
+        <li>
+            {{ review.name }}
+        </li>
+    {%  endfor %}
+    </ul>
+
+
+
 {% endblock %}

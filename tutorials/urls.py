@@ -1,6 +1,7 @@
 from django.urls import path
 from . import views
+from .views import HomeListView
 
 urlpatterns = [
-    path('',views.tutorials_index, name='tutorials_index'),
+    path('',views.HomeListView.as_view(), name='tutorials_index'),
 ]
