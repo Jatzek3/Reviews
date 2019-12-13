@@ -1,10 +1,10 @@
 {% extends "base.html" %}
 {% block content %}
-    <h1>Bookss</h1>
+    <h1>Books</h1>
     <ul>
     {%  for review in object_list %}
         <li>
-            {{ review.name }}
+            <a href="{%  url 'books_detail' id=review.id %}">{{ review.name }}</a>
         </li>
     {%  endfor %}
     </ul>

@@ -4,7 +4,7 @@
     <ul>
     {%  for review in object_list %}
         <li>
-            {{ review.name }}
+            <a href="{%  url 'exercises_detail' id=review.id %}">{{ review.name }}</a>
         </li>
     {%  endfor %}
     </ul>

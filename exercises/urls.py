@@ -1,8 +1,8 @@
 from django.urls import path
 from . import views
-from exercises.views import HomeListView
+from exercises.views import HomeListView, ExercisesDetailView
 
 urlpatterns = [
     path('',HomeListView.as_view(), name='exercises_index'),
-    path('<int:review_id>/', views.detail_view, name='detail_not_logged')
+    path('<int:id>/', ExercisesDetailView.as_view(), name='exercises_detail'),
 ]

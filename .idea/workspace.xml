@@ -5,7 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/books/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/books/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/books/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/books/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercises/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercises/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/books.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/books.html" afterDir="false" />
@@ -112,7 +111,8 @@
       <workItem from="1575833721602" duration="710000" />
       <workItem from="1575883577326" duration="2820000" />
       <workItem from="1576151225714" duration="15000" />
-      <workItem from="1576224569094" duration="6202000" />
+      <workItem from="1576224569094" duration="6924000" />
+      <workItem from="1576235747641" duration="4753000" />
     </task>
     <servers />
   </component>
