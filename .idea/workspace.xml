@@ -4,6 +4,12 @@
     <list default="true" id="791ad917-475c-4050-852e-2505b220409c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/learnpython/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/learnpython/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learnpython/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/learnpython/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+>>>>>>> ae0d5ff9b0436773313165496b019c6d11c5d769
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
