@@ -3,17 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="791ad917-475c-4050-852e-2505b220409c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/books/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/books/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/books/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/books/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/learnpython/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/learnpython/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/books_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/books_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/exercises_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/exercises_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/tutorials_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/tutorials_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorials/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorials/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learnpython/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/learnpython/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,6 +110,7 @@
       <workItem from="1576235747641" duration="5948000" />
       <workItem from="1576246250700" duration="371000" />
       <workItem from="1576252748637" duration="3000" />
+      <workItem from="1576273414248" duration="4519000" />
     </task>
     <servers />
   </component>
