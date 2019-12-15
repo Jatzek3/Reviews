@@ -31,11 +31,11 @@ ALLOWED_HOSTS = ['*']
 # Application definition
 
 INSTALLED_APPS = [
+    'accounts.apps.AccountsConfig',
     'exercises.apps.ExercisesConfig',
     'books.apps.BooksConfig',
     'tutorials.apps.TutorialsConfig',
     'home.apps.HomeConfig',
-    'accounts.apps.AccountsConfig',
 
 
     'django.contrib.admin',
@@ -129,4 +129,6 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 LOGIN_REDIRECT_URL = 'home_index'
 LOGOUT_REDIRECT_URL = 'home_index'
+
+AUTH_USER_MODEL = 'accounts.CustomUser'
 
