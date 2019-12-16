@@ -13,7 +13,7 @@ class HomeListView(ListView):
 
 class ExercisesDetailView(DetailView):
     queryset = ExercisesReview.objects.all()
-    template_name = 'books_detail.html'
+    template_name = 'exercises_detail.html'
     model = ExercisesReview
 
     def get_object(self, queryset=None):
