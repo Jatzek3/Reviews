@@ -1,10 +1,15 @@
 {% extends 'base.html' %}
 
 {%  block content %}
-<h1> {{ object.name }}</h1>
+    <h1>{{ object.name }}</h1>
+    <h3>Author</h3>
     <p>{{ object.author }}</p>
+    <h3>Review</h3>
     <p>{{ object.description }}</p>
+    <h3>Quality</h3>
     <p>{{ object.quality }}</p>
+    <h3>Difficulty</h3>
     <p>{{ object.difficulty }}</p>
+    <h3>Skill level</h3>
     <p>{{ object.skill_level }}</p>
 {%  endblock content %}
