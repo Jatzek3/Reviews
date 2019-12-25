@@ -1,4 +1,4 @@
-Work in progrss
+Work in progress
 
 # Reviews
 
@@ -26,3 +26,5 @@ Website consists of four main apps:
 - Custom User
 - SimpleTestCase
 - TestCase
+- Password reset
+- HTML Meta
