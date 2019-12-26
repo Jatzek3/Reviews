@@ -126,13 +126,14 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
-STATICFILES_DIRS =[
-    os.path.join(BASE_DIR, 'static')
-]
 
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_URL = '/static/'
-# STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
+# Extra places for collectstatic to find static files.
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'static'),
+]
 LOGIN_REDIRECT_URL = 'home_index'
 LOGOUT_REDIRECT_URL = 'home_index'
 
@@ -144,3 +145,4 @@ EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_HOST_USER = secure.HOST_USER
 EMAIL_HOST_PASSWORD = secure.HOST_PASSWORD
+
