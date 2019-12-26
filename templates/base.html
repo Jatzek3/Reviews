@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +8,7 @@
     <meta name="keywords" content="coding, tutorials, python, books, exercises">
     <meta name="author" content="Jacek Kawalec">
     <title>Learn Python Programming</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
 </head>
 <body>
     <a href={%  url 'home_index' %}>Home</a>
