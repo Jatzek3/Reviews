@@ -20,11 +20,10 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
-# SECURITY WARNING: keep the secret key used in production secret!
+
 SECRET_KEY = secure.SECRET_KEY
 
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
@@ -45,6 +44,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'accounts.apps.AccountsConfig',
+    'storages',
 ]
 
 MIDDLEWARE = [
@@ -146,3 +146,11 @@ EMAIL_USE_TLS = True
 EMAIL_HOST_USER = secure.HOST_USER
 EMAIL_HOST_PASSWORD = secure.HOST_PASSWORD
 
+AWS_ACCESS_KEY_ID = secure.AWS_ACCESS_KEY_ID
+AWS_SECRET_ACCESS_KEY = secure.AWS_SECRET_ACCES_KEY
+AWS_STORAGE_BUCKET_NAME = secure.AWS_STORAGE_BUCKET_NAME
+
+AWS_S3_FILE_OVERWRITE = False
+AWS_DEFAULT_ACL = None
+
+DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
