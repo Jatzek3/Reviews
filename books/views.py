@@ -1,6 +1,7 @@
 from django.shortcuts import render, get_object_or_404
 from django.http import HttpResponse
 
+from django.views.generic.edit import CreateView
 from django.views.generic.list import ListView
 from django.views.generic.detail import DetailView
 
@@ -22,3 +23,12 @@ class BooksReviewDetailView(DetailView):
 
         id_ = self.kwargs.get("id")
         return get_object_or_404(BooksReview, id=id_)
+
+
+class BookReviewCreateView(CreateView):
+    """View function for creating a Model"""
+    model = BooksReview
+    template_name = 'create_review.html'
+    fields = '__all__'
+
+

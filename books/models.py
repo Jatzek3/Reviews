@@ -1,4 +1,5 @@
 from django.db import models
+from django.urls import reverse
 
 
 class BooksReview(models.Model):
@@ -11,3 +12,7 @@ class BooksReview(models.Model):
 
     def __str__(self):
         return self.name
+
+    def get_absolute_url(self):
+        """Method which returns to detail after saving  """
+        return reverse('books_detail', args=[str(self.pk)])
