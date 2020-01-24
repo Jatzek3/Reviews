@@ -11,6 +11,7 @@ class ExercisesReview(models.Model):
     skill_level = models.CharField(max_length=10, null=True)
 
     def __str__(self):
+        """This function will enable proper string representation"""
         return self.name
 
     def get_absolute_url(self):
