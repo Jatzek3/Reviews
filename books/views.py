@@ -30,6 +30,5 @@ class BookReviewCreateView(CreateView):
     """View class for creating a Model"""
     model = BooksReview                         # Model which will be created
     template_name = 'create_review.html'        # Template name to be used when creating new review Used one template bcs all models are the same
-    fields = '__all__'                          # All fields will will be displayed to fill
-
+    fields = '__all__'                          # All fields will will be displayed to fill. We could also specfy ['name', 'author', etc ]
 
