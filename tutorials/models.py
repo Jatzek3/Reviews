@@ -1,5 +1,6 @@
 from django.db import models
 from django.urls import reverse
+from django.utils import timezone
 
 
 class TutorialsReview(models.Model):
@@ -17,3 +18,14 @@ class TutorialsReview(models.Model):
     def get_absolute_url(self):
         """Method which returns to detail after saving"""
         return reverse('tutorials_detail', args=[str(self.pk)])
+
+
+class TutorialsReviewComment(models.Model):
+
+    tutorials = models.ForeignKey('tutorials.TutorialsReview', on_delete=models.CASCADE, related_name='comments') # this links specified comment to a model
+#    commenter = CustomUser.get_username()  # User which is commenting will be shown in html
+    date = timezone.now()                       # Date when comment is created
+    comment = models.TextField()                # the inside of a comment
+
+    def __str__(self):                          # Proper string represetnation
+        return self.comment

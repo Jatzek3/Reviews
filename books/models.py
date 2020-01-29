@@ -1,5 +1,8 @@
 from django.db import models
 from django.urls import reverse
+from django.contrib.auth.models import User
+from django.utils import timezone
+from accounts.models import CustomUser
 
 
 class BooksReview(models.Model):
@@ -17,3 +20,14 @@ class BooksReview(models.Model):
     def get_absolute_url(self):
         """Method which returns to detail after saving """
         return reverse('books_detail', args=[str(self.pk)])
+
+
+class BooksReviewComment(models.Model):
+
+    book = models.ForeignKey('books.BooksReview', on_delete=models.CASCADE, related_name='comments') # this links specified comment to a model
+#    commenter = CustomUser.get_username()  # User which is commenting will be shown in html
+    date = timezone.now()                       # Date when comment is created
+    comment = models.TextField()                # the inside of a comment
+
+    def __str__(self):                          # Proper string represetnation
+        return self.comment

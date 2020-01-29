@@ -12,4 +12,15 @@
     <p>{{ object.difficulty }}</p>
     <h3>Skill level</h3>
     <p>{{ object.skill_level }}</p>
+    <hr>
+       {% for comment in exercisesreview.comments.all %}
+    <div>
+        <p>{{ comment.commenter }}</p>
+        <p>{{ comment.date}}</p>
+        <p>{{ comment.comment }}</p>
+    </div>
+    {% empty %}
+        <p>No comments here yet</p>
+    {% endfor %}
+
 {%  endblock content %}
