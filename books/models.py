@@ -25,7 +25,7 @@ class BooksReview(models.Model):
 class BooksReviewComment(models.Model):
 
     book = models.ForeignKey('books.BooksReview', on_delete=models.CASCADE, related_name='comments') # this links specified comment to a model
-#    commenter = CustomUser.get_username()  # User which is commenting will be shown in html
+    commenter = str(User.username)  # User which is commenting will be shown in html
     date = timezone.now()                       # Date when comment is created
     comment = models.TextField()                # the inside of a comment
 
